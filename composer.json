@@ -1,0 +1,20 @@
+{
+    "name": "aleksandra/csv_txt_reader",
+    "description": "read csv/txt files and show http request status",
+    "type": "project",
+    "require": {
+        "league/csv": "^9.6",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "AleksandraHlukhova",
+            "email": "a0993715642@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\" : "core/"
+        }
+    } 
+}
